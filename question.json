@@ -1,0 +1,7 @@
+{
+    "category": "Arte y Cultura",
+    "question": "¿Quién pintó la famosa obra 'La Mona Lisa'?",
+    "options": ["Vincent Van Gogh", "Leonardo da Vinci", "Pablo Picasso"],
+    "answer": 1,
+    "explanation": "La respuesta correcta es Leonardo da Vinci. 'La Mona Lisa' es una famosa pintura renacentista creada por él, conocida por su enigmática sonrisa y considerada una de las obras maestras más reconocidas en la historia del arte."
+  }
