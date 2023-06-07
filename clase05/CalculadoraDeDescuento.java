@@ -10,5 +10,6 @@ public class CalculadoraDeDescuento {
         int descuento = sc.nextInt();
         double precioFinal = precio - (precio * descuento / 100);
         System.out.println("El precio con el descuento es: " + precioFinal);
+        System.out.println("El descuento es: " + descuento);
     }
 }
