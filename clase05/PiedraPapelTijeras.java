@@ -26,11 +26,11 @@ public class PiedraPapelTijeras {
             System.out.println("Jugada de la máquina: " + jugadaMaquina);
 
             //comparar las jugadas
-            if (jugadaUsuario.equals(jugadaMaquina)) {
+            if (jugadaUsuario.equalsIgnoreCase(jugadaMaquina)) {
                 System.out.println("Empate");
-            } else if ((jugadaUsuario.equals("Piedra") && jugadaMaquina.equals("Tijera") ||
-                    jugadaUsuario.equals("Papel") && jugadaMaquina.equals("Piedra") ||
-                    jugadaUsuario.equals("Tijera") && jugadaMaquina.equals("Piedra"))) {
+            } else if ((jugadaUsuario.equalsIgnoreCase("Piedra") && jugadaMaquina.equalsIgnoreCase("Tijera") ||
+                    jugadaUsuario.equalsIgnoreCase("Papel") && jugadaMaquina.equalsIgnoreCase("Piedra") ||
+                    jugadaUsuario.equalsIgnoreCase("Tijera") && jugadaMaquina.equalsIgnoreCase("Piedra"))) {
                 System.out.println("Gana el usuario");
                 puntajeUsuario++;
             } else {
